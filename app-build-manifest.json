@@ -1,0 +1,133 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(marketing)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(marketing)/layout.css",
+      "static/chunks/app/(marketing)/layout.js"
+    ],
+    "/(marketing)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(marketing)/page.css",
+      "static/chunks/app/(marketing)/page.js"
+    ],
+    "/(platform)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/layout.js"
+    ],
+    "/(platform)/(clerk)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(clerk)/layout.js"
+    ],
+    "/(platform)/(clerk)/sign-in/[[...sign-in]]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(clerk)/sign-in/[[...sign-in]]/page.js"
+    ],
+    "/(platform)/(dashboard)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(platform)/(dashboard)/layout.css",
+      "static/chunks/app/(platform)/(dashboard)/layout.js"
+    ],
+    "/(platform)/(dashboard)/organization/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/layout.js"
+    ],
+    "/(platform)/(dashboard)/organization/[organizationId]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/layout.js"
+    ],
+    "/(platform)/(dashboard)/organization/[organizationId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/page.js"
+    ],
+    "/api/cards/[cardId]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/cards/[cardId]/route.js"
+    ],
+    "/api/cards/[cardId]/logs/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/cards/[cardId]/logs/route.js"
+    ],
+    "/(platform)/(clerk)/sign-up/[[...sign-up]]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(clerk)/sign-up/[[...sign-up]]/page.js"
+    ],
+    "/(platform)/(dashboard)/board/[boardId]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/board/[boardId]/layout.js"
+    ],
+    "/(platform)/(dashboard)/board/[boardId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/board/[boardId]/page.js"
+    ],
+    "/(platform)/(dashboard)/organization/[organizationId]/gantt/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/gantt/page.js"
+    ],
+    "/api/gantt/[organizationId]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/gantt/[organizationId]/route.js"
+    ],
+    "/(platform)/(dashboard)/organization/[organizationId]/notes/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/notes/page.js"
+    ],
+    "/(platform)/(dashboard)/organization/[organizationId]/chat/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/chat/page.js"
+    ],
+    "/api/chat/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/chat/route.js"
+    ],
+    "/(platform)/(dashboard)/organization/[organizationId]/documentos/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/documentos/page.js"
+    ],
+    "/(platform)/(dashboard)/organization/[organizationId]/activity/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/activity/page.js"
+    ],
+    "/api/documentos/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/documentos/route.js"
+    ],
+    "/api/upload/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/upload/route.js"
+    ],
+    "/(platform)/(dashboard)/organization/[organizationId]/settings/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/settings/page.js"
+    ]
+  }
+}
